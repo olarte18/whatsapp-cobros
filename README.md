@@ -48,16 +48,13 @@ El archivo `clientes.json` no se sube al repo. Usa `clientes.ejemplo.json` como 
   {
     "nombre": "Juan Pérez",
     "telefono": "573001234567",
-    "monto": "150.000",
-    "vencimiento": 10,
-    "mensaje": "Recuerda que mañana vence tu pago de YouTube Premium 📺"
+    "fecha": 10
   }
 ]
 ```
 
 - `telefono` — con código de país, sin `+`, sin espacios
-- `vencimiento` — día del mes como número entero, no string
-- `mensaje` — opcional, si no se pone usa uno genérico
+- `fecha` — día del mes como número entero, no string
 
 ---
 

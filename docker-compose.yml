@@ -1,0 +1,10 @@
+services:
+  whatsapp-cobros:
+    build: .
+    container_name: whatsapp-cobros
+    restart: unless-stopped
+    volumes:
+      - ./auth_info:/app/auth_info
+      - ./clientes.json:/app/clientes.json
+    stdin_open: true
+    tty: true

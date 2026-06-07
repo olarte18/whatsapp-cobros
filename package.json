@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp-cobros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olarte18/whatsapp-cobros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olarte18/whatsapp-cobros/issues"
+  },
+  "homepage": "https://github.com/olarte18/whatsapp-cobros#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "node-cron": "^4.2.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
